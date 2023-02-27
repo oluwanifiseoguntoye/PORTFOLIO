@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background: #0D151C;
     color: #f8f8ee;
@@ -188,3 +193,47 @@ nav .github:hover {
     color: #f8f8ee;
 }
 
+.home {
+    background: #0D151C;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.home-header {
+    text-transform: uppercase;
+    color: #ff5277;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+}
+
+.home-title {
+    color: #f8f8ee;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 90px !important;
+}
+
+.home-text {
+    color: #f8f8ee;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.nav-spacer {
+    height: 50px; /* adjust as needed */
+    background-color: #0D151C;
+  }
+
+  .home-highlight {
+    color: #ff5277;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+    font-size: 30px;
+    font-weight: normal;
+  }
