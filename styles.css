@@ -58,7 +58,6 @@ nav .logo-brand {
     position: relative;
     font-size: medium;
     font-family: 'Inter', sans-serif;
-    
 }
 
 
@@ -252,3 +251,19 @@ nav .github:hover {
     )
 }
 
+@keyframes slideUp {
+    from {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .text {
+    animation: slideUp 0.5s forwards;
+    animation-delay: 0.2s;
+  }
+  

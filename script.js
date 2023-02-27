@@ -28,3 +28,6 @@ function close(){
   }, {once: true});
 }
 
+window.addEventListener('load', function() {
+  document.querySelector('.text').classList.add('animate');
+});
