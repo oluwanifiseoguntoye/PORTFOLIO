@@ -5,15 +5,19 @@
 }
 
 .navbar-brand-logo {
-    width: 75px;
-    height: 75px;
-    margin-right: -10px;
+    width: 60px;
+    height: 60px;
+    margin-right: -6px;
 }
 
 .navbar-brand-title {
     text-decoration: none;
     color: #f8f8ee;
     margin-right: -10px;
+    color: #f8f8ee;
+    font-weight: 700;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar {
@@ -34,6 +38,8 @@
     color: #f8f8ee;
     text-decoration: none;
     position: relative;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -73,3 +79,4 @@
     background-color: red;
     transition: all 0.25s ease-out;
 }
+
