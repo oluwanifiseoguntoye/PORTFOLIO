@@ -80,3 +80,19 @@
     transition: all 0.25s ease-out;
 }
 
+.github {
+    text-decoration: none;
+    color: #f8f8ee;
+    font-size: 2em;
+}
+
+.github:hover {
+    text-decoration: none;
+    color: #f8f8ee;
+}
+
+
+ 
+  
+  
+  
