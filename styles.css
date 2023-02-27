@@ -1,37 +1,50 @@
-*, *::before, *::after{
+*, ::before, ::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-.navbar-brand-logo {
-    width: 60px;
-    height: 60px;
-    margin-right: -6px;
+nav {
+    background: #0D151C;
+    color: #f8f8ee;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
 }
 
-.navbar-brand-title {
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+
+nav .num {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: small;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 15px;
     text-decoration: none;
     color: #f8f8ee;
-    margin-right: -10px;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+}
+
+nav .logo {
+    text-decoration: none;
     color: #f8f8ee;
     font-weight: 700;
     font-size: medium;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
 
-.navbar {
-    background-color: #0a192f;
-    padding: 35px;
-    display: flex;
-}
-
-.navbar-toggler {
-    color: #f8f8ee;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
+nav .logo-brand {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }
 
 .nav-link {
@@ -40,6 +53,7 @@
     position: relative;
     font-size: medium;
     font-family: 'Inter', sans-serif;
+    
 }
 
 
@@ -80,19 +94,97 @@
     transition: all 0.25s ease-out;
 }
 
-.github {
+nav .openMenu {
+    font-size: 2rem;
+    margin: 6px;
+    display: none;
+}
+
+nav .closeMenu {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media(max-width: 850px){
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px
+    }
+    nav .openMenu {
+        display: block;
+    }
+    .nav-link {
+        color: #f8f8ee;
+        text-decoration: none;
+        position: relative;
+        font-size: medium;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 0%;
+        height: 4px;
+        background-color: #f8f8ee;
+        transition: all 0.25s ease-out;
+    }
+    
+    .nav-link:hover {
+        color: #f8f8ee;
+    }
+    
+    .nav-link:hover::before {
+        width: 100%;
+        left: 0;
+        right: auto;
+    }
+    
+    .nav-link.active {
+        position: relative;
+        text-decoration: none;
+        color: #f8f8ee;
+    }
+      
+    .nav-link.active::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: red;
+        transition: all 0.25s ease-out;
+    }
+}
+
+nav .github {
     text-decoration: none;
     color: #f8f8ee;
     font-size: 2em;
 }
 
-.github:hover {
+nav .github:hover {
     text-decoration: none;
     color: #f8f8ee;
 }
 
-
- 
-  
-  
-  
