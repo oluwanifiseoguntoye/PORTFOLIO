@@ -230,10 +230,25 @@ nav .github:hover {
     background-color: #0D151C;
   }
 
-  .home-highlight {
-    color: #ff5277;
+.home-highlight {
     font-family: 'Inter', sans-serif;
     text-transform: none;
     font-size: 30px;
     font-weight: normal;
-  }
+    position: relative;
+    padding: 0 5px;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        grey 50%
+    )
+}
+
+.home-highlight:hover {
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #ff5277 50%
+    )
+}
+
