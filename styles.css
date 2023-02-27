@@ -90,7 +90,7 @@ nav .logo-brand {
     left: 0;
     width: 100%;
     height: 4px;
-    background-color: red;
+    background-color: #ff5277;
     transition: all 0.25s ease-out;
 }
 
