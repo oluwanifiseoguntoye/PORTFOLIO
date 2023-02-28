@@ -125,6 +125,12 @@ nav .closeMenu {
         transition: top 1s ease;
         display: none;
     }
+    nav .num {
+        font-family: 'Inter', sans-serif;
+        font-weight: lighter;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+    }
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
@@ -139,9 +145,11 @@ nav .closeMenu {
         text-decoration: none;
         position: relative;
         font-size: medium;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
+        font-size: 50px;
+        font-weight: bolder;
     }
-    
     
     .nav-link::before {
         content: "";
@@ -155,6 +163,7 @@ nav .closeMenu {
     
     .nav-link:hover {
         color: #f8f8ee;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     .nav-link:hover::before {
