@@ -22,10 +22,6 @@ function show(){
 
 function close(){
   mainMenu.style.top = '-100%';
-  mainMenu.addEventListener('transitionend', function() {
-      mainMenu.style.display = 'none';
-      mainMenu.removeEventListener('transitionend', arguments.callee, false);
-  }, {once: true});
 }
 
 window.addEventListener('load', function() {
