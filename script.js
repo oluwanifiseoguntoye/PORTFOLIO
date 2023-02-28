@@ -27,3 +27,21 @@ function close(){
 window.addEventListener('load', function() {
   document.querySelector('.text').classList.add('animate');
 });
+
+const aboutSection = document.querySelector('#about');
+const aboutTitle = document.querySelector('.about-title');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    const aboutTitle = entry.target.querySelector('.about-title')
+    if (entry.isIntersecting) {
+      aboutTitle.classList.add('animate');
+      return;
+    }
+    aboutTitle.classList.remove('animate');
+    
+  });
+});
+
+observer.observe(aboutSection);
+
