@@ -206,6 +206,15 @@ nav .github:hover {
     font-size: 15px;
     font-weight: 700;
     display: block;
+    text-decoration: none;
+}
+
+.home-header:hover {
+    color: #ff2a57;
+}
+
+a {
+    text-decoration: none;
 }
 
 .home-title {
