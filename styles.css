@@ -258,7 +258,8 @@ a {
         to bottom,
         transparent 50%,
         grey 50%
-    )
+    );
+    cursor: pointer;
 }
 
 .home-highlight:hover {
