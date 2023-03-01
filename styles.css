@@ -110,7 +110,7 @@ nav .closeMenu {
     cursor: pointer;
 }
 
-@media(max-width: 850px){
+@media(max-width: 1000px){
     nav .mainMenu {
         height: 100vh;
         position: fixed;
