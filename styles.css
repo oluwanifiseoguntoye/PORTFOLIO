@@ -540,53 +540,6 @@ a {
   height: 100%;
 }
 
-.progress-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.progress-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-.topic {
-  margin-right: 15px;
-  letter-spacing: 0.5px;
-  font-size: 15px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  color: #f8f8ee;
-}
-
-.progress-container .progress-bar {
-  position: relative;
-  width: 500px;
-  height: 30px;
-  border-radius: 30px;
-  background-color: #f8f8ee;
-}
-
-.progress-container .progress-bar span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  height: 100%;
-  color: #f8f8ee;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.7;
-  text-align: center;
-  border-radius: 30px;
-  background: linear-gradient(90deg, #ff5277 50%, #ff2a57 100%);
-  transition: width 0.5s linear;
-  display: block;
-}
-
 .card-title {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
