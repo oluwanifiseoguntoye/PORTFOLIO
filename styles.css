@@ -457,6 +457,7 @@ a {
   height: 300px;
   perspective: 1000px; /* This is needed for the 3D effect */
   display: block;
+  margin-bottom: 100px;
 }
 
 .card-front, .card-back {
@@ -466,6 +467,7 @@ a {
   top: 0;
   left: 0;
   transition: transform 0.6s;
+  align-items: center;
 }
 
 .card-front {
@@ -485,6 +487,47 @@ a {
 }
 
 
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-2 {
+  width: 700px;
+  height: 350px;
+  perspective: 1000px; /* This is needed for the 3D effect */
+  display: block;
+  margin-bottom: 50px;
+}
+
+.card-front, .card-back {
+  height: 100%;
+  backface-visibility: hidden; /* This is needed for the 3D effect */
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.6s;
+  align-items: center;
+}
+
+.card-front {
+  z-index: 2;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card-2:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+.card-2:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+
 .project-cards {
   background: #0D151C;
   padding-bottom: 20rem;
@@ -495,4 +538,73 @@ a {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.progress-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.topic {
+  margin-right: 15px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #f8f8ee;
+}
+
+.progress-container .progress-bar {
+  position: relative;
+  width: 500px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #f8f8ee;
+}
+
+.progress-container .progress-bar span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  color: #f8f8ee;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #ff5277 50%, #ff2a57 100%);
+  transition: width 0.5s linear;
+  display: block;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #0D151C;
+}
+
+.card-text {
+  font-family: 'Inter', sans-serif;
+  color: #0D151C;
+}
+
+.card-2-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #f8f8ee;
+}
+
+.card-2-text {
+  font-family: 'Inter', sans-serif;
+  color: #f8f8ee;
 }

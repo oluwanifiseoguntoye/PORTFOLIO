@@ -17,6 +17,7 @@
   <body>
 
     <div class="root">
+
       <nav>
         <div class="logo ms-3">
           <img class="logo-brand" src="https://i.imgur.com/HGMTaDp.png"></img>
@@ -30,7 +31,7 @@
           <li><a href="#" class="nav-link mx-3"> <span class="num">04</span> hire me</a></li>
           <div class="closeMenu"><i class="bx bx-x bx-md"></i></div>
         </ul>
-        <a class="mx-3 github d-none d-xl-block" href="https://github.com/oluwanifiseoguntoye">
+        <a class="mx-3 github d-none d-xl-block" href="https://github.com/oluwanifiseoguntoye" target="_blank">
           <i class="bi bi-github"></i>
         </a>
       </nav> 
@@ -91,27 +92,83 @@
       <div class="about-spacer"></div>
 
       <section class="projects text-md-start" id="projects">
-          <h1 class="projects-title mx-auto">Projects</h1>
+          <h1 class="projects-title mx-auto">My Projects</h1>
       </section>
 
      <section class="project-cards">
-      <div class="card-wrapper mx-auto">
-        <div class="card mx-auto" onclick="flipCard(this)">
+        <div class="card-wrapper mx-auto">
+          <div class="card mx-auto" onclick="flipCard(this)">
           <div class="card-front">
             <img src="https://i.imgur.com/GTt3Vzv.png" class="card-img-top" alt="Project Image">
           </div>
           <div class="card-back">
             <div class="card-body">
-              <h5 class="card-title">Project Name</h5>
-              <p class="card-text">Project description goes here...</p>
+              <h5 class="card-title">University of Toronto Students for Choice</h5>
+              <p class="card-text">
+                As my first project, I had the opportunity to design and develop a responsive, multi-page website for a student organization. 
+                The main objective was to create a website that effectively communicated the organization's purpose and message, while also fulfilling all of their needs.
+                To achieve this, I utilized HTML, CSS, Bootstrap, and Javascript to create a clean, modern design that enhanced the user experience with dynamic content and a carousel feature. 
+                The use of Javascript allowed me to make the site more interactive and engaging for visitors.
+                Throughout the project, I worked closely with the student organization to ensure that their needs were met and that the final product aligned with their vision. 
+                The end result was a successful website that effectively conveyed the organization's message and purpose.
+              </p>
             </div>
           </div>
         </div>
+        <div class="card-wrapper mx-auto">
+          <div class="card-2 mx-auto" onclick="flipCard(this)">
+            <div class="card-front">
+              <img src="https://i.imgur.com/5zewE5F.png" class="card-img-top" alt="Project Image">
+            </div>
+            <div class="card-back">
+              <div class="card-body">
+                <h5 class="card-2-title">
+                  Django Rest API
+                </h5>
+                <p class="card-2-text">
+                  As part of my web development journey, I worked on a Django REST API project that involved developing and implementing CRUD operations using Python and generic API views. 
+                  The project aimed to create a secure and efficient API that would allow users to access data and perform various operations.
+                  To enhance the search functionality of the API, I integrated Algolia search engine, providing users with faster and accurate results. 
+                  I also utilized SimpleJWT, Javascript web client, and DjangoCors to implement a secure login system with token authorization, 
+                  ensuring that users had secure access to the API.
+                  Throughout the project, I utilized various technologies such as Django REST Framework, Python, Javascript, Algolia, SimpleJWT, 
+                  and DjangoCorsHeaders. This project was my first experience working on a Django REST API, and I worked closely with the team to ensure 
+                  that the final product fulfilled all their needs.
+                </p>
+              </div>
+            </div>
+        </div>
+
+        <div> <h1 class="projects-title mx-auto">Skills</h1> </div>
+        <div class="progress-wrapper mx-auto">
+          <div class="progress-container">
+              <span class="topic">Python</span>
+            <div class="progress-bar"> 
+              <span class="progress-bar" data-width="70%">70%</span>
+            </div>
+          </div>
+          <div class="progress-container">
+            <span class="topic" >Javascript</span>
+            <div class="progress-bar"> 
+              <span data-width="60%">60%</span>
+            </div>
+          </div>
+          <div class="progress-container">
+            <span class="topic">Django</span>
+            <div class="progress-bar"> 
+              <span data-width="60%">60%</span>
+            </div>
+          </div>
+          <div class="progress-container">
+            <span class="topic">HTML5 & CSS3</span>
+            <div class="progress-bar"> 
+              <span data-width="90%">90%</span>
+            </div>
+          </div>
+        </div>
+          
      </section>
-
-      
-
-      
+     
     </div>
 
 
