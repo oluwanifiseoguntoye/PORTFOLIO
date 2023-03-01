@@ -395,13 +395,13 @@ a {
   .about-text {
     color: #0D151C;
     font-family: 'Inter', sans-serif;
-    font-size: 21px;
+    font-size: 25px;
   }
 
   .about-text-2 {
     color: #0D151C;
     font-family: 'Inter', sans-serif;
-    font-size: 21px;
+    font-size: 25px;
     margin-right: 500px;
     padding: 20px
   }
@@ -410,7 +410,7 @@ a {
   .about-text a {
     font-family: 'Inter', sans-serif;
     text-transform: none;
-    font-size: 21px;
+    font-size: 25px;
     font-weight: normal;
     position: relative;
     padding: 0 5px;
