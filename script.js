@@ -45,3 +45,6 @@ const observer = new IntersectionObserver(entries => {
 
 observer.observe(aboutSection);
 
+$(function(){
+  $('.carousel').carousel()
+})

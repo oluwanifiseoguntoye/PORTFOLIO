@@ -304,7 +304,7 @@ a {
     display: block;
     margin-bottom: 20px;
     color: #0D151C;
-    border-bottom: 2px solid #0D151C;
+    border-bottom: 2px solid lightgrey;
   }
   
   .about-title.animate {
@@ -374,7 +374,7 @@ a {
   
   .left {
     flex: 1;
-    border-right: 2px solid #0D151C;
+    border-right: 2px solid lightgray;
     padding-right: 20px;
   }
   
@@ -386,6 +386,29 @@ a {
   .about-text {
     color: #0D151C;
     font-family: 'Inter', sans-serif;
-    font-size: 29px;
+    font-size: 23px;
   }
   
+  .about-text a {
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+    font-size: 23px;
+    font-weight: normal;
+    position: relative;
+    padding: 0 5px;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        white 50%
+    );
+    cursor: pointer;
+    color: #0D151C;
+  }
+
+  .about-text a:hover {
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #ff5277 50%
+    )
+  }
