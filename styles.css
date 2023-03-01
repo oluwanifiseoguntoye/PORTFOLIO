@@ -440,6 +440,7 @@ a {
   background: #0D151C;
   display: flex;
   justify-content: space-between;
+  padding: 60px
 }
 
 .projects-title {
