@@ -306,6 +306,14 @@ a {
     color: #0D151C;
     border-bottom: 2px solid lightgrey;
   }
+
+.about-title-2 {
+    display: inline-block;
+    font-size: 100px;
+    font-family: 'Livvic' sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
   
   .about-title.animate {
     opacity: 1;
@@ -370,6 +378,7 @@ a {
     display: flex;
     align-items: center;
     padding: 20px;
+    padding-bottom: 60px;
   }
   
   .left {
@@ -386,13 +395,22 @@ a {
   .about-text {
     color: #0D151C;
     font-family: 'Inter', sans-serif;
-    font-size: 23px;
+    font-size: 21px;
   }
+
+  .about-text-2 {
+    color: #0D151C;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    margin-right: 500px;
+    padding: 20px
+  }
+
   
   .about-text a {
     font-family: 'Inter', sans-serif;
     text-transform: none;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: normal;
     position: relative;
     padding: 0 5px;
