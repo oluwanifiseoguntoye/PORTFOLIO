@@ -498,7 +498,7 @@ a {
   height: 350px;
   perspective: 1000px; /* This is needed for the 3D effect */
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 250px;
 }
 
 .card-front, .card-back {
