@@ -386,7 +386,8 @@ a {
     border-right: 2px solid lightgray;
     padding-right: 20px;
   }
-  
+
+
   .right {
     flex: 2;
     padding-left: 20px;
