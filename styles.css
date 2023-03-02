@@ -710,7 +710,6 @@ a {
     color: #f8f8ee;
     font-size: 1.5rem;
     padding-bottom: 10px;
-    
 }
 
 .contact-type {
@@ -721,7 +720,6 @@ a {
   font-weight: normal;
   text-decoration: underline;
   cursor: pointer;
-  padding-left: 15px;
 }
 
 .contact-type:hover {
